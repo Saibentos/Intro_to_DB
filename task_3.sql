@@ -1,2 +1,2 @@
 SHOW TABLES;
-sed -i 's/\r$//' task_3.sql
+mysql -u root -p alx_book_store < task_3.sql
